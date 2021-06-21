@@ -6,6 +6,7 @@
 const hre = require("hardhat");
 const fs = require("fs");
 const { ethers } = require("hardhat");
+const step2RemoveOutRangeBlocks = require("../outputs/step-2-remove-outrange-blocks.json");
 
 const validBlocks = [8347353, 8347803];
 const filePath = "./inputs/1-129.txt";
@@ -97,19 +98,70 @@ async function removeOutRangeBlocks(records, blocks) {
     });
   }
 
-  saveToFile("./outputs/step-2-remove-outrange-blocks.json", inRangeBlockRecords);
+  saveToFile(
+    "./outputs/step-2-remove-outrange-blocks.json",
+    inRangeBlockRecords
+  );
 
   return inRangeBlockRecords;
+}
+
+async function calculateTotalBnbUsed(records) {
+  const includedBnbUsedTxs = [];
+  let totalBnbLost = ethers.BigNumber.from("0");
+  for (record of records) {
+    // for (hash of record.transactions) {
+    const pendingBnb = record.transactions.map((hash) => {
+      return hre.network.provider
+        .send("eth_getTransactionByHash", [hash])
+        .then((tx) => ethers.BigNumber.from(tx.value));
+    });
+
+    if (pendingBnb.length) {
+      const bnb = await Promise.all(pendingBnb).then(
+        (bnb) => bnb.reduce((acc, tx) => acc.add(tx)),
+        ethers.BigNumber.from("0")
+      );
+
+      const formattedBnb = ethers.utils.formatEther(bnb);
+      console.log(`User ${record.tg} paid:`, `${formattedBnb} BNB`);
+
+      totalBnbLost = totalBnbLost.add(ethers.BigNumber.from(bnb));
+
+      includedBnbUsedTxs.push({
+        ...record,
+        bnb: formattedBnb,
+      });
+    } else {
+      includedBnbUsedTxs.push({ ...record, bnb: "0" });
+    }
+  }
+
+  saveToFile(
+    "./outputs/step-3-include-total-bnb-used.json",
+    includedBnbUsedTxs
+  );
+
+  console.log(`Total bnb lost`, ethers.utils.formatEther(totalBnbLost));
+
+  return includedBnbUsedTxs;
 }
 
 function saveToFile(filePath, content) {
   fs.writeFileSync(filePath, JSON.stringify(content, null, 2));
 }
 
-parse(filePath)
-  .then(groupByAddress)
-  .then(removeDuplicatedTxs)
-  .then((records) => removeOutRangeBlocks(records, validBlocks))
+// parse(filePath)
+//   .then(groupByAddress)
+//   .then(removeDuplicatedTxs)
+//   .then((records) => removeOutRangeBlocks(records, validBlocks))
+//   .then(() => process.exit(0))
+//   .catch((error) => {
+//     console.error(error);
+//     process.exit(1);
+//   });
+
+calculateTotalBnbUsed(step2RemoveOutRangeBlocks)
   .then(() => process.exit(0))
   .catch((error) => {
     console.error(error);
