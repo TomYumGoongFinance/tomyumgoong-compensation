@@ -31,7 +31,7 @@ async function groupByAddress(records) {
         ...((_recordsByAddress[record.address] &&
           _recordsByAddress[record.address]["transactions"]) ||
           []),
-        ...record.transactions,
+        ...record.transactions.filter((tx) => tx !== ""),
       ],
     };
   }
@@ -56,10 +56,6 @@ async function removeDuplicatedTxs(records) {
     };
   });
 
-  for (record of removedDuplicateTxsRecords) {
-    console.log(`User ${record.tg}: `, `${record.transactions.length} txs`);
-  }
-
   saveToFile(
     "./outputs/step-1-remove-duplicated-txs.json",
     removedDuplicateTxsRecords
@@ -83,9 +79,11 @@ async function removeOutRangeBlocks(records, blocks) {
     });
 
     const inRangeBlockTxs = await Promise.all(pendingTxs).then((txs) =>
-      txs.filter(
-        (tx) => tx.blockNumber >= minBlock && tx.blockNumber <= maxBlock
-      )
+      txs
+        .filter(
+          (tx) => tx.blockNumber >= minBlock && tx.blockNumber <= maxBlock
+        )
+        .map((txs) => txs.hash)
     );
 
     console.log(
@@ -98,6 +96,8 @@ async function removeOutRangeBlocks(records, blocks) {
       transactions: inRangeBlockTxs,
     });
   }
+
+  saveToFile("./outputs/step-2-remove-outrange-blocks.json", inRangeBlockRecords);
 
   return inRangeBlockRecords;
 }

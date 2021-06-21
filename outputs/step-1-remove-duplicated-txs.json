@@ -318,7 +318,6 @@
     "address": "0xEc6f1E6D35c9Af580f78ebaC3D8c3564b6ad26d3",
     "transactions": [
       "0xeaac7b0db8c5a2f69297c880a97af80adf48dc6961db2ff4a8277fd2b7052230",
-      "",
       "0xf846093da2fac7c042187dee48760bfba9f4513dad512d5c533a734469a6d04d"
     ],
     "tg": "@kapinoi"
@@ -345,7 +344,6 @@
     "address": "0x589Df6145F4614118CA2cAedeF160fABDD8741b2",
     "transactions": [
       "0x75a0c230306643f46df582d6a72ceffc6614b75c82cfa8008db4a2ee194b8682",
-      "",
       "0x2f2dda6c0b4f299435c22ac1705c7bd02a590696e021f99a7ced8432eaa5fead",
       "0x938679404546401114bbd4e7ea8612a8e7b9362828874eed9695ecce8ef9f36a",
       "0x32012c3a75c7d809323183ecd2d178ca76e8cda8a390d5501a1bf001ede3485c",
@@ -417,8 +415,7 @@
     "timestamp": "17/6/2021, 12:31:25",
     "address": "0xa9B69849b936B444dcd429F90A4A983cfe08bDaA",
     "transactions": [
-      "0x5ccee97e6bde7eb400633a0eff8d4ff3a3fd67f2ff963a2a4b4512134b772476,",
-      "0x6900241d9cc2bb781f13786e58b83c1ec6a4e998c2db1e8e026cf03f4c3c4c69,",
+      "0x5ccee97e6bde7eb400633a0eff8d4ff3a3fd67f2ff963a2a4b4512134b772476",
       "0x6900241d9cc2bb781f13786e58b83c1ec6a4e998c2db1e8e026cf03f4c3c4c69"
     ],
     "tg": "@vladdddddi"
