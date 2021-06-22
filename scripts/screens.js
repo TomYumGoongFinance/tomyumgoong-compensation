@@ -13,11 +13,12 @@ const validBlocks = [8347353, 8347803];
 // Reference: https://bscscan.com/tx/0xeee08bfc0aec3c50a8a1daac1aaf7a51405a62440e80eff1281375d97a33e718
 const goongPerBnb = 3156.909090909091;
 const goongPerBusd = 8.695;
-const filePath = "./inputs/1-129.txt";
+const filePath = "./inputs/1-149.txt";
 
 async function parse(rawFilePath) {
   const rawText = fs.readFileSync(rawFilePath, "utf-8");
   const jsonText = rawText.replace(/\\/g, "");
+  console.log(jsonText)
   const records = JSON.parse(jsonText);
 
   return records.map((record) => ({
@@ -109,6 +110,7 @@ async function removeOutRangeBlocks(records, blocks) {
 
     count++;
 
+    console.log(record)
     console.log(
       `Step 2: Processed ${count}/${records.length}`
     );
