@@ -5,13 +5,20 @@
     "transactions": [
       "0xdead4db277a2063db9757e853938cbee291baf828659244a8d160b50e32b80b5"
     ],
-    "tg": "tonnpeera"
+    "tg": "tonnpeera",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 10:00:44",
     "address": "0x21B2cDFf1FaDB2eA420259be51Cba45bF1A3705F",
     "transactions": [],
-    "tg": "@onsuwan"
+    "tg": "@onsuwan",
+    "rejects": [
+      {
+        "hash": "0x699316553dc2df0b2a9d1c7ac1d23d22b8bf549a6ed6ea7c125221f8c8fdda89",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      }
+    ]
   },
   {
     "timestamp": "17/6/2021, 10:01:50",
@@ -20,13 +27,45 @@
       "0x267529b5c69c9e18447bf5af7051c40df06ee4f32e788c4944f5dec1541a8bb6",
       "0xc48ee5b461499c93280211eef0db72e35d89ea76b794327eec2f1edadc422deb"
     ],
-    "tg": "tonvirgo"
+    "tg": "tonvirgo",
+    "rejects": [
+      {
+        "hash": "0xe21fc2417a208b3494f3d34aa884b2b9c89617d3e1b3f208c438738567c1499a",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      },
+      {
+        "hash": "0x4bef022bd36f7839a3a6db1197beb52dc90890855105f2ab75dcdf5eff1012e6",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      },
+      {
+        "hash": "0x3f424095894075558e17a1a924040364cff5463413ae62b803328b857868c0d0",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      },
+      {
+        "hash": "0x881cf667b1541d03382a3ea0ae00e725ac3c4397013768389a74771ba65139e6",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      },
+      {
+        "hash": "0x3653a6fe2ea37a55b04b0dcf933647d5b9611fbc557276b748a8c286d23718f0",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      },
+      {
+        "hash": "0xb781b65d999d5d4a63d5f98b2c5a54681f01ad2278bda1da05b6f02d1eb70ad9",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      }
+    ]
   },
   {
     "timestamp": "17/6/2021, 10:02:10",
     "address": "0x2e222337F5b1Df0683cFB17B1cbc63a22b356C51",
     "transactions": [],
-    "tg": "@sacoolspizy"
+    "tg": "@sacoolspizy",
+    "rejects": [
+      {
+        "hash": "0x2fcc9ee7a8536cdb8e39549e57f528a7a0887635327f39bdeefd787a6a5f1a40",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      }
+    ]
   },
   {
     "timestamp": "17/6/2021, 10:04:02",
@@ -34,7 +73,8 @@
     "transactions": [
       "0x0c6edfca0fd39c25381a7c98a1c3d154cf10f1a1acad514d406d86afd4943fd0"
     ],
-    "tg": "@surakiti"
+    "tg": "@surakiti",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 10:06:21",
@@ -61,7 +101,8 @@
       "0xed122b2179f84573083fbad02bc39a814c45d23960887daf2651891a62c0d0f3",
       "0x5b0b30286dc1fc7687f5d4855797d62a05f05e4de168411bfaf70f4eeed3be43"
     ],
-    "tg": "https://t.me/ap29630"
+    "tg": "https://t.me/ap29630",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 10:06:42",
@@ -69,7 +110,8 @@
     "transactions": [
       "0x84769ad0814db5aacbf7e150d626452af6b08a859626caaf1a4aa326a841c1cf"
     ],
-    "tg": "@supawitt"
+    "tg": "@supawitt",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 10:06:53",
@@ -77,7 +119,8 @@
     "transactions": [
       "0x9b5897ec0f71fd2b2ff4871cb7a11fb73cd1d844d90a2e91471da1783b6ccd99"
     ],
-    "tg": "@peonyz"
+    "tg": "@peonyz",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 10:12:14",
@@ -85,7 +128,8 @@
     "transactions": [
       "0x2786a8e4fa37ba3d0155de2e6345a0f658ab293101398b8af6a1d43798b7e358"
     ],
-    "tg": "https://t.me/longloy47"
+    "tg": "https://t.me/longloy47",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 10:16:13",
@@ -98,7 +142,8 @@
       "0xecf8604324111ff3e7c6787911e34a8bb9642d5303877fb8c5d3caa0ecc6921e",
       "0x77e7f0b8148c4a5a87f4eb1d1fcf48058371b44ac7ed1824f2ca6812aa3bbf59"
     ],
-    "tg": "https://t.me/HydraDD"
+    "tg": "https://t.me/HydraDD",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 10:18:18",
@@ -106,7 +151,8 @@
     "transactions": [
       "0xf91411e2c040d64e372f1e1d419be9cc9ddfec6cf97c7a204e994c8fa5f77d6f"
     ],
-    "tg": "@s1eeperz"
+    "tg": "@s1eeperz",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 10:19:47",
@@ -115,7 +161,8 @@
       "0xa1481a3162051b2da5c5f8dc1c677c0a17467d2b2c2fd45ed96729e5faac1829",
       "0xa31eb4325296a5db2466639bcc9f573bed82afd62c59732779923fd0d00380e6"
     ],
-    "tg": "@kokojangja"
+    "tg": "@kokojangja",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 10:20:20",
@@ -123,19 +170,40 @@
     "transactions": [
       "0xcbed4899628a22b7da864b58f33c2271fa55d5637e845c83759c89694a5cc106"
     ],
-    "tg": "https://t.me/HydraDD"
+    "tg": "https://t.me/HydraDD",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 10:21:29",
     "address": "0x2F59c9e6e26a938040A74DBF2174fC69B41a08b9",
     "transactions": [],
-    "tg": "@Yunngpo"
+    "tg": "@Yunngpo",
+    "rejects": [
+      {
+        "hash": "0xcaedbd4c7ab727e3b1e5c9623817203d6c1a80d05ebb4fc1488eb1ef0b652333",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      }
+    ]
   },
   {
     "timestamp": "17/6/2021, 10:26:10",
     "address": "0x9935fd479cD57a8A32A58732a3B0b9C6e9b6A041",
     "transactions": [],
-    "tg": "@MIKKIIEE"
+    "tg": "@MIKKIIEE",
+    "rejects": [
+      {
+        "hash": "0x8de413646f59a30f7db09b1640d27c9b7da06c3afc28ea764a3997f9db37b1bc",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      },
+      {
+        "hash": "0x9bc95c34797bb0eba5e8dadbb37ce462bdcfdc7fc6ff5abec6ee94b016be3fc6",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      },
+      {
+        "hash": "0xec90fa1d7c45e70216818c5ed4adc9deb634186509340bbc9bd2041cf07b1213",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      }
+    ]
   },
   {
     "timestamp": "17/6/2021, 10:31:08",
@@ -143,7 +211,8 @@
     "transactions": [
       "0xcc62ae6c8f9f00e6f78fd9864ae66f703b94ce2ceffe254b53ba260cd1239d28"
     ],
-    "tg": "@thomasanalog"
+    "tg": "@thomasanalog",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 10:34:46",
@@ -170,7 +239,8 @@
       "0xed122b2179f84573083fbad02bc39a814c45d23960887daf2651891a62c0d0f3",
       "0x5b0b30286dc1fc7687f5d4855797d62a05f05e4de168411bfaf70f4eeed3be43"
     ],
-    "tg": "https://t.me/puccinome"
+    "tg": "https://t.me/puccinome",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 10:40:14",
@@ -178,7 +248,8 @@
     "transactions": [
       "0xd9cf677984981f176ee4dafff88c0d8cde86dfa2cef48fbd7a14f6b7a44a3fb2"
     ],
-    "tg": "@ggbbb11"
+    "tg": "@ggbbb11",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 10:41:22",
@@ -193,13 +264,20 @@
       "0x08b825fcaed2a6f57062b66dc9dfe8ef165a2b9854806d57e9d098c53887132d",
       "0x5e68988377e309ca30a682593f60449b8e5e048ec2618f1c2d110e6bdccbe219"
     ],
-    "tg": "@gnigma237"
+    "tg": "@gnigma237",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 10:48:25",
     "address": "0x4134fF79cB444281e49B10171Bed4f6FB7d1a6C0",
     "transactions": [],
-    "tg": "@Tanadol_Sasen"
+    "tg": "@Tanadol_Sasen",
+    "rejects": [
+      {
+        "hash": "0xf26c2f80789034ad0e32bca2bd4d923582e13dbf4f8806e088f3993ef0f44b64",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      }
+    ]
   },
   {
     "timestamp": "17/6/2021, 11:04:35",
@@ -207,7 +285,8 @@
     "transactions": [
       "0x22496cbf3732676d8f2b90f644589e6a31c829c90d4dc7716913962cdc515fb7"
     ],
-    "tg": "YOUNG NGAI I SUS 100x"
+    "tg": "YOUNG NGAI I SUS 100x",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 11:13:08",
@@ -217,7 +296,8 @@
       "0x8a4c384acc573c9ef08de43cb037614e623c6536b2ae65908f1c531799ef9cf0",
       "0xdb2740423dc8aac626c5790ba5521c09655a20c17ed0dad153f1bcb6a0abed23"
     ],
-    "tg": "Dumrongtae Sayantoum"
+    "tg": "Dumrongtae Sayantoum",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 11:16:48",
@@ -226,7 +306,8 @@
       "0xb7d2572af25965b325d524d8af0d328cd2ab825e64a05b9355f03abea1aa4715",
       "0x2ec4d9dbb04c20cdbfa16a042556b0af3171f2bc3d96c674f1125c1d2809253c"
     ],
-    "tg": "M."
+    "tg": "M.",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 11:25:38",
@@ -234,7 +315,8 @@
     "transactions": [
       "0xd87924ae2092c6f7b3e3b61d1b059a143adf0d54f6424f387159671310186051"
     ],
-    "tg": "@boydberry"
+    "tg": "@boydberry",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 11:45:54",
@@ -243,7 +325,8 @@
       "0xfcbde93f1f680af017bbf52176f9c072ea3cbfbb5a0c250e3953acd6cc8f9bf4",
       "0x48db03394db7ed936b7da54ed12f14b415f44d7edad4e4cad5ea1f365debeb82"
     ],
-    "tg": "https://t.me/ChanonWitt"
+    "tg": "https://t.me/ChanonWitt",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 12:03:45",
@@ -253,7 +336,17 @@
       "0x26af39807d6cff0299d540235271d03cffc2bad58f4335ffc96b9fb02d72e06b",
       "0xbd7dace16faef94cf87943e149769079ccbb082fab033fc70747449b5aa12196"
     ],
-    "tg": "teerads tokens"
+    "tg": "teerads tokens",
+    "rejects": [
+      {
+        "hash": "0x92bbb3b9634d49d7d298e0fce37eeff40065332da0971e37a78c5ff5df6dd4ff",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      },
+      {
+        "hash": "0x418bdb376627a0c3970e84429192a6ef1ce07727cd6dc42410fc9bae489da58c",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      }
+    ]
   },
   {
     "timestamp": "17/6/2021, 12:06:36",
@@ -261,7 +354,8 @@
     "transactions": [
       "0x1135d1eb7aaab211bee3e772581c326eef769c3cf126602d6313c388aa728eeb"
     ],
-    "tg": "Piece of shit"
+    "tg": "Piece of shit",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 12:10:25",
@@ -269,7 +363,8 @@
     "transactions": [
       "0x3a863d9742cfe06faafc2d4004ecefb56fc5a58c9f91337f2535c29fed4c0984"
     ],
-    "tg": "@naannpk"
+    "tg": "@naannpk",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 12:11:37",
@@ -291,7 +386,8 @@
       "0xb65a40908e93387c7c23277097eca91791eed9abdd27e1503911f88570827b67",
       "0x8d8402b1e3d0aad0cbb83ca60467f64edef0f7148db1b4a37a07027ae1edfadd"
     ],
-    "tg": "@kussz14"
+    "tg": "@kussz14",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 12:12:49",
@@ -300,7 +396,8 @@
       "0xeaac7b0db8c5a2f69297c880a97af80adf48dc6961db2ff4a8277fd2b7052230",
       "0xf846093da2fac7c042187dee48760bfba9f4513dad512d5c533a734469a6d04d"
     ],
-    "tg": "@kapinoi"
+    "tg": "@kapinoi",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 12:15:05",
@@ -308,7 +405,8 @@
     "transactions": [
       "0x6bfe1ea3264980c971211a01eb8553a696f10e48766a02197f3fe747ac32fa1b"
     ],
-    "tg": "isunjt"
+    "tg": "isunjt",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 12:16:08",
@@ -316,7 +414,13 @@
     "transactions": [
       "0x5e0dd542c0b7ee41a8781708c9d58722237e9aa7ee893dc57464276862166ac2"
     ],
-    "tg": "Sharkporsche"
+    "tg": "Sharkporsche",
+    "rejects": [
+      {
+        "hash": "0x51ead46a96bd2da463067b9d5706afe2119c2175599689748a34d698cfc0277f",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      }
+    ]
   },
   {
     "timestamp": "17/6/2021, 12:16:46",
@@ -329,7 +433,8 @@
       "0x7cf627a4937a532fe406005020195672e8b866b4bbd0669e96ecc06e3033289c",
       "0xa8c0477c7f2ab7b5e56b04aad860620763cdffbedbb6ce04a1a8f07de1a329a1"
     ],
-    "tg": "@Zing_ctdfs"
+    "tg": "@Zing_ctdfs",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 12:17:05",
@@ -337,7 +442,8 @@
     "transactions": [
       "0xfa00b9f7ad921cdb5ca46d763434362475ea89ebcf21184a0379bb29122672dd"
     ],
-    "tg": "Eddie180880"
+    "tg": "Eddie180880",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 12:19:41",
@@ -345,7 +451,8 @@
     "transactions": [
       "0x23f27e17dea7485b756b4c8ff97eb9e671695a09ca8dc5db80fd5cdca2128e7e"
     ],
-    "tg": 1873868196
+    "tg": 1873868196,
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 12:20:33",
@@ -356,13 +463,20 @@
       "0x26c558480e6ff48b57609ec75c825d0ce044519f74e0f0bcdb2a435161b82d02",
       "0x37271a7ed8bd4dc3e2418b9245877e2873680137c95b6fd772a338859da0bea1"
     ],
-    "tg": "https://t.me/mallister"
+    "tg": "https://t.me/mallister",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 12:22:17",
     "address": "0xb7ceDD3e7E18A02Df3F92a27f75C7eDe5f294E0c",
     "transactions": [],
-    "tg": "https://t.me/Telepiphat"
+    "tg": "https://t.me/Telepiphat",
+    "rejects": [
+      {
+        "hash": "0xff38fad506a49da81d87677216826645ec5413d82d0c66ad7aef6523ef95261b",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      }
+    ]
   },
   {
     "timestamp": "17/6/2021, 12:23:59",
@@ -370,13 +484,20 @@
     "transactions": [
       "0xf9a7ced866308d62ef000cc4812a63b48bf1678809362cc04f32d2def0785f2a"
     ],
-    "tg": "Abhipu Patcharasrihakul"
+    "tg": "Abhipu Patcharasrihakul",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 12:25:47",
     "address": "0x46E57ec944d017D8efD89bf403BF3415559C32Ab",
     "transactions": [],
-    "tg": 1805322618
+    "tg": 1805322618,
+    "rejects": [
+      {
+        "hash": "0x5c0a3c2b3b3d4a11acb73937b5491848d1abd8f5a1eb6392b9a02c4e6a435843",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      }
+    ]
   },
   {
     "timestamp": "17/6/2021, 12:29:32",
@@ -384,7 +505,8 @@
     "transactions": [
       "0xfbf914834ac9cf6a7275d1e063bb3d32f751360568d8a5c3cfc4bb86cc4f0d6b"
     ],
-    "tg": "@pitipongyai"
+    "tg": "@pitipongyai",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 12:31:25",
@@ -393,7 +515,8 @@
       "0x5ccee97e6bde7eb400633a0eff8d4ff3a3fd67f2ff963a2a4b4512134b772476",
       "0x6900241d9cc2bb781f13786e58b83c1ec6a4e998c2db1e8e026cf03f4c3c4c69"
     ],
-    "tg": "@vladdddddi"
+    "tg": "@vladdddddi",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 12:38:58",
@@ -409,7 +532,8 @@
       "0x082c0f5f9e96eb4f757941f8246082a2d865b8aa3f0f5b5affa6533efd32a3b6",
       "0x8710754b3b4b58ed7042365b8d4888e6ddcc0842108d3c965e2ce9f85c86a2e4"
     ],
-    "tg": "@deklay69"
+    "tg": "@deklay69",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 13:10:52",
@@ -417,7 +541,8 @@
     "transactions": [
       "0xb0ea5348239b21426506f6ecff246e2541c61eea0c0fd35e32c21450945fbf42"
     ],
-    "tg": 182843175
+    "tg": 182843175,
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 13:11:15",
@@ -425,7 +550,8 @@
     "transactions": [
       "0x4a6fcc49d853866bf2a675e8998d5a9827366617c04db3170bcdb1a3d9bb1e04"
     ],
-    "tg": "@intothevenus"
+    "tg": "@intothevenus",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 13:21:24",
@@ -437,7 +563,8 @@
       "0x50795b68861da4feac46d4244e8d945b1a045812e3f3c8bba2711abeafa60998",
       "0xc492ce16830f3f3d63ee49bc6b0bd170dbd768125df7fb67f1222fc66f05e6dc"
     ],
-    "tg": "@ktath"
+    "tg": "@ktath",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 13:22:49",
@@ -446,7 +573,8 @@
       "0x45efbad1275b11046b87942d7c8ae24b49b70681f5ed4c31c919a0a463d522c3",
       "0x0edd9653f72b386dbc7d84b0bd4c50604f5b62e33cd614dd99716fae9d1400bb"
     ],
-    "tg": "coffee2mate"
+    "tg": "coffee2mate",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 13:28:17",
@@ -454,7 +582,8 @@
     "transactions": [
       "0x7bf037d0405935dd23baa530ac6bc6ba3be32cfcdc7d314c47c4c02ec6f33a50"
     ],
-    "tg": "@St42dust"
+    "tg": "@St42dust",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 13:32:21",
@@ -462,7 +591,8 @@
     "transactions": [
       "0xbab06e2d95657f601953c1c28a0fec705126c5b6174049a9df7db2eafd064a0e"
     ],
-    "tg": "jamebondd007"
+    "tg": "jamebondd007",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 13:44:04",
@@ -472,7 +602,8 @@
       "0xb3a95b1e1993f7d1d04d2c464f3196a394a1fb73bec25d117097a690fc05777a",
       "0xd7a8aba1d37d4c3240eb5a0cd2b2b41e814b4f5a3579c106a0625c918001c013"
     ],
-    "tg": "@Aricato"
+    "tg": "@Aricato",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 13:47:59",
@@ -480,7 +611,13 @@
     "transactions": [
       "0xda7a3b3ccdb270e019004fe7df7a1f270963b306f428033e56440a6808d749d7"
     ],
-    "tg": "@tuanweeradet"
+    "tg": "@tuanweeradet",
+    "rejects": [
+      {
+        "hash": "0xc7d208982c44068684d25a7805ac7da39868bbf4dbb87ddcb9ff3e14f590e53b",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      }
+    ]
   },
   {
     "timestamp": "17/6/2021, 13:48:37",
@@ -488,7 +625,8 @@
     "transactions": [
       "0x63d50b67e30c7443073280e15201f1d1551700ba1078eab916ff0757a50e4570"
     ],
-    "tg": "@lchlibendu"
+    "tg": "@lchlibendu",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 13:50:07",
@@ -496,7 +634,8 @@
     "transactions": [
       "0xff37f0a0ef480d84fc05ecb040e2596424d33fc7dd13e4a252146121c1979f10"
     ],
-    "tg": "@tharakornk"
+    "tg": "@tharakornk",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 13:51:47",
@@ -511,7 +650,8 @@
       "0xa149fb012448bd92dc876d2e989e77ac9dbe11e7d8b0032438b1a5cde0e604da",
       "0xae58658a515d1fa51927b62ba3b1f7da1a87251e0647f1a86e1835794692d36e"
     ],
-    "tg": "https://t.me/DDLOYD"
+    "tg": "https://t.me/DDLOYD",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 13:52:24",
@@ -519,7 +659,8 @@
     "transactions": [
       "0x11ce84f1c2188209b48120f7349553e6d92147a071e2c3f8d94a23c94c8b6668"
     ],
-    "tg": "newzfaker"
+    "tg": "newzfaker",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 14:25:59",
@@ -534,7 +675,8 @@
       "0x119e999a6913cbce167684a16fa9da9b3e071077083eb9df86c1629b640b70c1",
       "0xcfff69c00ca43b7bd675adfa31b4ccca63fabe01e5ff84e80d89c9edd4d24d0e"
     ],
-    "tg": "@mostshinoda"
+    "tg": "@mostshinoda",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 14:49:41",
@@ -544,7 +686,8 @@
       "0x7fe14bd1d8cda0ec9bdc375bf2827b65dcd589cb6cdc0c99c1f31b7b44d07c03",
       "0x08cd878cca8004ee8fd93872b2f006d45d49317ef231f0ef2046a3c132d91a49"
     ],
-    "tg": "@opofmn"
+    "tg": "@opofmn",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 15:20:36",
@@ -552,7 +695,8 @@
     "transactions": [
       "0x2cab0f1113c8e0c87fe22ed21b75bc963f7aec13a6a343d8ec7e80ee83f211d5"
     ],
-    "tg": "@Dookroulloz"
+    "tg": "@Dookroulloz",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 15:27:00",
@@ -560,7 +704,8 @@
     "transactions": [
       "0x1b3c7e1aeb3721e2cffb195201ddc572d4168844179432c460007571dd52001f"
     ],
-    "tg": "@remiiiiii9"
+    "tg": "@remiiiiii9",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 15:48:26",
@@ -568,7 +713,8 @@
     "transactions": [
       "0x5ceda45f6acee6d40311fe75fb0e77f56f9fc98ed69fd21f136f14c47e3dbcc6"
     ],
-    "tg": "@nellayrrab"
+    "tg": "@nellayrrab",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 16:10:04",
@@ -577,7 +723,8 @@
       "0x076400ca21dd92868a35576a842952560d5f9803ab87453c321504dfa33947f2",
       "0x79d5e8d95ea8adc57976d851c000a3b8c7ac02168a3484f23cdde521c1935cec"
     ],
-    "tg": "Jokerhz"
+    "tg": "Jokerhz",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 16:12:10",
@@ -594,7 +741,8 @@
       "0xa63e6de83064b1e68b8398b6405dd9434701dfbac82a621ce4e5c01dc829da74",
       "0x57687f26161e441f5fd07b0a018f4ae7352bd2cc2104e5b7fcb0d7f2c3cf7205"
     ],
-    "tg": "@PoPuSu"
+    "tg": "@PoPuSu",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 16:18:28",
@@ -602,7 +750,8 @@
     "transactions": [
       "0xa59583cf6501ea6bf28b27f68ebf8a8a4dda5864cf27e5587a9314e0acb35177"
     ],
-    "tg": "Boo2552"
+    "tg": "Boo2552",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 16:49:53",
@@ -610,7 +759,8 @@
     "transactions": [
       "0xf73a59b722a8da335cb2183ebef25292a284ba7b546b0273f53f7b7f435c734d"
     ],
-    "tg": "Mew"
+    "tg": "Mew",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 17:44:59",
@@ -618,7 +768,8 @@
     "transactions": [
       "0x77efcfba502bc9986f7e0e864882503fbbf654e84c14377da6ac816d390df7ff"
     ],
-    "tg": "@MaiNiTH"
+    "tg": "@MaiNiTH",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 17:50:52",
@@ -626,7 +777,8 @@
     "transactions": [
       "0x7eacbb1c97edc2ad980c2c7c64e76bdbc61d20622ae80d2f72db6bdc1d8533d2"
     ],
-    "tg": "kongosama"
+    "tg": "kongosama",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 17:55:34",
@@ -634,7 +786,8 @@
     "transactions": [
       "0xedc536ada552c0a532abbeed33ecae78d3962149bd7bfcd86890b60ae5622ec8"
     ],
-    "tg": "@Jeanhanna"
+    "tg": "@Jeanhanna",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 18:52:33",
@@ -642,7 +795,8 @@
     "transactions": [
       "0xc1dac5f331ec3f695d40ebcff3d620d09dba66be6db70aad9a144af62236106f"
     ],
-    "tg": "@PanterPeet"
+    "tg": "@PanterPeet",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 19:27:20",
@@ -661,7 +815,8 @@
       "0x352a99fb157cb818d5f89ffff652669471871c053c208550e531e64baee51b7b",
       "0xb7af503d1ededfb6ed64a29d4bbf5652450f6aa091cc9653efdfde98a2b4f965"
     ],
-    "tg": "@seechompoo"
+    "tg": "@seechompoo",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 19:43:59",
@@ -669,7 +824,8 @@
     "transactions": [
       "0xdce8476ef8ccbc1112c29d4cac9d24067d6ee06a6240c0b9843c087b7e2aaf81"
     ],
-    "tg": "@whale919"
+    "tg": "@whale919",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 20:31:13",
@@ -677,7 +833,13 @@
     "transactions": [
       "0x630c5956d33f463155a836d506800572d7c8e8b5a64748a5f7efef1965c0986c"
     ],
-    "tg": "https://t.me/Pscpond"
+    "tg": "https://t.me/Pscpond",
+    "rejects": [
+      {
+        "hash": "0xb6e7fa425411b15017b525f0c9752be60151d8d4596f26c8ad06c7dc193508db",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      }
+    ]
   },
   {
     "timestamp": "17/6/2021, 21:10:09",
@@ -685,7 +847,8 @@
     "transactions": [
       "0x7a03c524221e3196fab8066909a33124f923225c1dd3bae2aadb5339ebc4a3ec"
     ],
-    "tg": "@AdisornJ"
+    "tg": "@AdisornJ",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 21:41:01",
@@ -696,7 +859,8 @@
       "0x86ef8ea879def6684e99623a57e7d662ec15810f1d5b38c5541428a8c473e987",
       "0x78311d7996642329a98879d0fc1d9051420b4bc96e01ef0bd89f1bb3ae6c08a8"
     ],
-    "tg": "@numanuel"
+    "tg": "@numanuel",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 21:43:17",
@@ -707,7 +871,8 @@
       "0xbdfd7d690cd48e03d360a445c5f69a03a1530c24dd38b4e0bd91ea6fdd131844",
       "0x3443bc4bcb44803c7be5f1ed66f387c45da256d501d5ba04f826c15fdd96d426"
     ],
-    "tg": "@pipezjrk"
+    "tg": "@pipezjrk",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 22:08:18",
@@ -718,7 +883,8 @@
       "0xd9c05a1f24d63c2e063b7d7a33f0b2ea084724f8b6f46c5c53f61415003591ae",
       "0x499df5a0b290f1cf5953bfa8aab47b4f7b7a0637f2a959235ba1034fba88443e"
     ],
-    "tg": "@lostboy55"
+    "tg": "@lostboy55",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 22:57:11",
@@ -726,7 +892,8 @@
     "transactions": [
       "0x610d8eaab5128651e1bc2a41bd0d9800e639c7727db9c47f0e766533deaf52c2"
     ],
-    "tg": "@Spencer_P"
+    "tg": "@Spencer_P",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 23:00:26",
@@ -734,25 +901,44 @@
     "transactions": [
       "0x86f31598a69263f04e2607556506bc7b2ba69c8d01b4ed1a009bf5459beb9864"
     ],
-    "tg": "bank666666"
+    "tg": "bank666666",
+    "rejects": []
   },
   {
     "timestamp": "17/6/2021, 23:32:41",
     "address": "0x6247936214B4F2d1476AD797eE5c8e4B3e1434ce",
     "transactions": [],
-    "tg": "Two Doors"
+    "tg": "Two Doors",
+    "rejects": [
+      {
+        "hash": "0x1f8dae33cddd1f165b1194c797f5632251cd232bde07fe3bca33af1b596a2f22",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      }
+    ]
   },
   {
     "timestamp": "17/6/2021, 23:56:48",
     "address": "0x7a7f186a8F8983a5785DF96aEa4bdDBecd6D2fb5",
     "transactions": [],
-    "tg": "@tmew2009"
+    "tg": "@tmew2009",
+    "rejects": [
+      {
+        "hash": "0x0c1717b9c0e96f58a2c40479a5b69ec028e779da2b382807d8b34d1ac4cdf4d5",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      }
+    ]
   },
   {
     "timestamp": "18/6/2021, 0:59:26",
     "address": "0x9e053EA35cEc4d1f274127A799676F85B15be92c",
     "transactions": [],
-    "tg": "@Anuruk_Kul"
+    "tg": "@Anuruk_Kul",
+    "rejects": [
+      {
+        "hash": "0xb1ca2cdd78a9cbc7ac2a200f24b3e237694b154e6184b5861b086d31f2edf313",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      }
+    ]
   },
   {
     "timestamp": "18/6/2021, 2:25:30",
@@ -760,7 +946,8 @@
     "transactions": [
       "0x1e0893ded0677ac0243870ec092786fc7ec71be499b4db75e354bfb075903577"
     ],
-    "tg": "Tomthom14"
+    "tg": "Tomthom14",
+    "rejects": []
   },
   {
     "timestamp": "18/6/2021, 2:46:10",
@@ -768,7 +955,8 @@
     "transactions": [
       "0x62436f1262c4ef6b707d29b467cf6e69c56e38f20b1c3e717852deb18f0cd44e"
     ],
-    "tg": "@forcekebo"
+    "tg": "@forcekebo",
+    "rejects": []
   },
   {
     "timestamp": "18/6/2021, 8:57:42",
@@ -776,7 +964,8 @@
     "transactions": [
       "0x6fabe7cb61f19e5a287c76874d7b93841213f8a8f7ee97197def438f2791f5d0"
     ],
-    "tg": "@chokchon"
+    "tg": "@chokchon",
+    "rejects": []
   },
   {
     "timestamp": "18/6/2021, 13:51:36",
@@ -784,7 +973,8 @@
     "transactions": [
       "0xd82ec5153f79fa08910cfb18fa3ad9eba104498d57b6c521632774470433deb7"
     ],
-    "tg": "@wingking6463"
+    "tg": "@wingking6463",
+    "rejects": []
   },
   {
     "timestamp": "18/6/2021, 17:41:14",
@@ -794,7 +984,8 @@
       "0xd137fec3244bd1690bb7861d2d75994b21831a7e23fda33c7d3a3419e6f85990",
       "0x7b07efb262d25feb2478038e8ff03676dc1e5c74d3983db373e91312a8a847ec"
     ],
-    "tg": "ChampTDE"
+    "tg": "ChampTDE",
+    "rejects": []
   },
   {
     "timestamp": "18/6/2021, 19:42:51",
@@ -803,7 +994,8 @@
       "0x195a3e7bee9620b3eba2c375d7017a5e10f5dadd985bd4636b998f98f426d0b0",
       "0xdf2d6151fe1f2a5c9539bb31093067c0da20fffdc127bac93a7943da950e2c29"
     ],
-    "tg": "@aofmusix"
+    "tg": "@aofmusix",
+    "rejects": []
   },
   {
     "timestamp": "18/6/2021, 20:11:31",
@@ -811,7 +1003,8 @@
     "transactions": [
       "0x5228470f9f80dd95ef7166c11cd37c2b6d1e1c922f883f4e9a5fd0eb5ecbfa04"
     ],
-    "tg": "winai.kitbumrung"
+    "tg": "winai.kitbumrung",
+    "rejects": []
   },
   {
     "timestamp": "18/6/2021, 20:44:03",
@@ -819,7 +1012,8 @@
     "transactions": [
       "0x3f4ca4b0e445cedb5b404b0e08915b4764dd9068933924f88cfc4095ee9c9d0e"
     ],
-    "tg": "@Piyapong9099"
+    "tg": "@Piyapong9099",
+    "rejects": []
   },
   {
     "timestamp": "19/6/2021, 1:05:01",
@@ -835,7 +1029,8 @@
       "0xf5781ebf97dc7af48ab1f9a2a410163ef278330d22b27868e8dfeb320b57fc46",
       "0xbe4edb93149b37cfba1e335ebf124a5d052e8e387f7d8ccd724ab263df3b4c3e"
     ],
-    "tg": "@stol2mshadow"
+    "tg": "@stol2mshadow",
+    "rejects": []
   },
   {
     "timestamp": "19/6/2021, 8:33:19",
@@ -843,7 +1038,8 @@
     "transactions": [
       "0xe74adb4eb2dc4e4bac9a5af349717865ae810f00b5a07ccbbc2a762246a8d976"
     ],
-    "tg": "@lcl1234"
+    "tg": "@lcl1234",
+    "rejects": []
   },
   {
     "timestamp": "19/6/2021, 11:36:49",
@@ -876,7 +1072,8 @@
       "0x29d6d468d20e4b2d47159924e7642e3ee896481642be6ba7fe9427c3e67e7d50",
       "0xd99c1f8eeb9ccebdc05e19d29ac762e79acdd449768097d451c96f1f84645c4d"
     ],
-    "tg": "Glennbtc"
+    "tg": "Glennbtc",
+    "rejects": []
   },
   {
     "timestamp": "19/6/2021, 20:53:43",
@@ -884,7 +1081,8 @@
     "transactions": [
       "0x45e30e196ce93feb4af65458594f38787c5b677bcd8a82954716b92b5e18113d"
     ],
-    "tg": "@zugstyles"
+    "tg": "@zugstyles",
+    "rejects": []
   },
   {
     "timestamp": "20/6/2021, 12:54:07",
@@ -898,6 +1096,7 @@
       "0xa824d3a64d98dba16c9530cfb891a6e0d5cdd2cb3f9c3e068a89ba4fecd00815",
       "0x81388cd8a2356f95b068d46c2471e240b89e39fe6b6ef9ecc4f3b90d17c6330a"
     ],
-    "tg": "@Mikazuki2"
+    "tg": "@Mikazuki2",
+    "rejects": []
   }
 ]

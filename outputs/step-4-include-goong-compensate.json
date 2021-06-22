@@ -6,16 +6,25 @@
       "0xdead4db277a2063db9757e853938cbee291baf828659244a8d160b50e32b80b5"
     ],
     "tg": "tonnpeera",
+    "rejects": [],
     "bnb": "0.03",
-    "goong": 94.70727272727272
+    "busd": "0.0",
+    "goongRefund": 94.70727272727272
   },
   {
     "timestamp": "17/6/2021, 10:00:44",
     "address": "0x21B2cDFf1FaDB2eA420259be51Cba45bF1A3705F",
     "transactions": [],
     "tg": "@onsuwan",
-    "bnb": "0",
-    "goong": 0
+    "rejects": [
+      {
+        "hash": "0x699316553dc2df0b2a9d1c7ac1d23d22b8bf549a6ed6ea7c125221f8c8fdda89",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      }
+    ],
+    "bnb": "0.0",
+    "busd": "0.0",
+    "goongRefund": 0
   },
   {
     "timestamp": "17/6/2021, 10:01:50",
@@ -25,16 +34,50 @@
       "0xc48ee5b461499c93280211eef0db72e35d89ea76b794327eec2f1edadc422deb"
     ],
     "tg": "tonvirgo",
+    "rejects": [
+      {
+        "hash": "0xe21fc2417a208b3494f3d34aa884b2b9c89617d3e1b3f208c438738567c1499a",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      },
+      {
+        "hash": "0x4bef022bd36f7839a3a6db1197beb52dc90890855105f2ab75dcdf5eff1012e6",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      },
+      {
+        "hash": "0x3f424095894075558e17a1a924040364cff5463413ae62b803328b857868c0d0",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      },
+      {
+        "hash": "0x881cf667b1541d03382a3ea0ae00e725ac3c4397013768389a74771ba65139e6",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      },
+      {
+        "hash": "0x3653a6fe2ea37a55b04b0dcf933647d5b9611fbc557276b748a8c286d23718f0",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      },
+      {
+        "hash": "0xb781b65d999d5d4a63d5f98b2c5a54681f01ad2278bda1da05b6f02d1eb70ad9",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      }
+    ],
     "bnb": "0.011",
-    "goong": 34.726
+    "busd": "0.0",
+    "goongRefund": 34.726
   },
   {
     "timestamp": "17/6/2021, 10:02:10",
     "address": "0x2e222337F5b1Df0683cFB17B1cbc63a22b356C51",
     "transactions": [],
     "tg": "@sacoolspizy",
-    "bnb": "0",
-    "goong": 0
+    "rejects": [
+      {
+        "hash": "0x2fcc9ee7a8536cdb8e39549e57f528a7a0887635327f39bdeefd787a6a5f1a40",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      }
+    ],
+    "bnb": "0.0",
+    "busd": "0.0",
+    "goongRefund": 0
   },
   {
     "timestamp": "17/6/2021, 10:04:02",
@@ -43,8 +86,10 @@
       "0x0c6edfca0fd39c25381a7c98a1c3d154cf10f1a1acad514d406d86afd4943fd0"
     ],
     "tg": "@surakiti",
+    "rejects": [],
     "bnb": "0.1",
-    "goong": 315.69090909090914
+    "busd": "0.0",
+    "goongRefund": 315.69090909090914
   },
   {
     "timestamp": "17/6/2021, 10:06:21",
@@ -68,12 +113,18 @@
       "0x61d830401412fae8163b0990676275b5aeee0b1270558967c8c1fe0f1ace19a1",
       "0xe916d422a1864fb5d1873da328ab1fbefc0ad74f6dd9e0f697e3358aa2a9b838",
       "0x6dff53c9b6ef367045398bdf23c66ed5292bf5fcfac210bafb0ed232ce53cfcd",
-      "0xed122b2179f84573083fbad02bc39a814c45d23960887daf2651891a62c0d0f3",
-      "0x5b0b30286dc1fc7687f5d4855797d62a05f05e4de168411bfaf70f4eeed3be43"
+      "0xed122b2179f84573083fbad02bc39a814c45d23960887daf2651891a62c0d0f3"
     ],
     "tg": "https://t.me/ap29630",
+    "rejects": [
+      {
+        "hash": "0x5b0b30286dc1fc7687f5d4855797d62a05f05e4de168411bfaf70f4eeed3be43",
+        "reason": "Not swap transaction."
+      }
+    ],
     "bnb": "0.561",
-    "goong": 1771.0260000000003
+    "busd": "0.0",
+    "goongRefund": 1771.0260000000003
   },
   {
     "timestamp": "17/6/2021, 10:06:42",
@@ -82,8 +133,10 @@
       "0x84769ad0814db5aacbf7e150d626452af6b08a859626caaf1a4aa326a841c1cf"
     ],
     "tg": "@supawitt",
+    "rejects": [],
     "bnb": "0.04",
-    "goong": 126.27636363636364
+    "busd": "0.0",
+    "goongRefund": 126.27636363636364
   },
   {
     "timestamp": "17/6/2021, 10:06:53",
@@ -92,8 +145,10 @@
       "0x9b5897ec0f71fd2b2ff4871cb7a11fb73cd1d844d90a2e91471da1783b6ccd99"
     ],
     "tg": "@peonyz",
+    "rejects": [],
     "bnb": "0.0002",
-    "goong": 0.6313818181818183
+    "busd": "0.0",
+    "goongRefund": 0.6313818181818183
   },
   {
     "timestamp": "17/6/2021, 10:12:14",
@@ -102,8 +157,10 @@
       "0x2786a8e4fa37ba3d0155de2e6345a0f658ab293101398b8af6a1d43798b7e358"
     ],
     "tg": "https://t.me/longloy47",
+    "rejects": [],
     "bnb": "0.04166314",
-    "goong": 131.5267454218182
+    "busd": "0.0",
+    "goongRefund": 131.5267454218182
   },
   {
     "timestamp": "17/6/2021, 10:16:13",
@@ -117,8 +174,10 @@
       "0x77e7f0b8148c4a5a87f4eb1d1fcf48058371b44ac7ed1824f2ca6812aa3bbf59"
     ],
     "tg": "https://t.me/HydraDD",
+    "rejects": [],
     "bnb": "0.03619",
-    "goong": 114.24854
+    "busd": "0.0",
+    "goongRefund": 114.24854
   },
   {
     "timestamp": "17/6/2021, 10:18:18",
@@ -127,8 +186,10 @@
       "0xf91411e2c040d64e372f1e1d419be9cc9ddfec6cf97c7a204e994c8fa5f77d6f"
     ],
     "tg": "@s1eeperz",
+    "rejects": [],
     "bnb": "0.12935017649712674",
-    "goong": 408.34674809447483
+    "busd": "0.0",
+    "goongRefund": 408.34674809447483
   },
   {
     "timestamp": "17/6/2021, 10:19:47",
@@ -138,8 +199,10 @@
       "0xa31eb4325296a5db2466639bcc9f573bed82afd62c59732779923fd0d00380e6"
     ],
     "tg": "@kokojangja",
+    "rejects": [],
     "bnb": "0.0101",
-    "goong": 31.884781818181818
+    "busd": "0.0",
+    "goongRefund": 31.884781818181818
   },
   {
     "timestamp": "17/6/2021, 10:20:20",
@@ -148,24 +211,48 @@
       "0xcbed4899628a22b7da864b58f33c2271fa55d5637e845c83759c89694a5cc106"
     ],
     "tg": "https://t.me/HydraDD",
+    "rejects": [],
     "bnb": "0.009",
-    "goong": 28.412181818181818
+    "busd": "0.0",
+    "goongRefund": 28.412181818181818
   },
   {
     "timestamp": "17/6/2021, 10:21:29",
     "address": "0x2F59c9e6e26a938040A74DBF2174fC69B41a08b9",
     "transactions": [],
     "tg": "@Yunngpo",
-    "bnb": "0",
-    "goong": 0
+    "rejects": [
+      {
+        "hash": "0xcaedbd4c7ab727e3b1e5c9623817203d6c1a80d05ebb4fc1488eb1ef0b652333",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      }
+    ],
+    "bnb": "0.0",
+    "busd": "0.0",
+    "goongRefund": 0
   },
   {
     "timestamp": "17/6/2021, 10:26:10",
     "address": "0x9935fd479cD57a8A32A58732a3B0b9C6e9b6A041",
     "transactions": [],
     "tg": "@MIKKIIEE",
-    "bnb": "0",
-    "goong": 0
+    "rejects": [
+      {
+        "hash": "0x8de413646f59a30f7db09b1640d27c9b7da06c3afc28ea764a3997f9db37b1bc",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      },
+      {
+        "hash": "0x9bc95c34797bb0eba5e8dadbb37ce462bdcfdc7fc6ff5abec6ee94b016be3fc6",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      },
+      {
+        "hash": "0xec90fa1d7c45e70216818c5ed4adc9deb634186509340bbc9bd2041cf07b1213",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      }
+    ],
+    "bnb": "0.0",
+    "busd": "0.0",
+    "goongRefund": 0
   },
   {
     "timestamp": "17/6/2021, 10:31:08",
@@ -174,8 +261,10 @@
       "0xcc62ae6c8f9f00e6f78fd9864ae66f703b94ce2ceffe254b53ba260cd1239d28"
     ],
     "tg": "@thomasanalog",
+    "rejects": [],
     "bnb": "0.001",
-    "goong": 3.156909090909091
+    "busd": "0.0",
+    "goongRefund": 3.156909090909091
   },
   {
     "timestamp": "17/6/2021, 10:34:46",
@@ -199,12 +288,18 @@
       "0x61d830401412fae8163b0990676275b5aeee0b1270558967c8c1fe0f1ace19a1",
       "0xe916d422a1864fb5d1873da328ab1fbefc0ad74f6dd9e0f697e3358aa2a9b838",
       "0x6dff53c9b6ef367045398bdf23c66ed5292bf5fcfac210bafb0ed232ce53cfcd",
-      "0xed122b2179f84573083fbad02bc39a814c45d23960887daf2651891a62c0d0f3",
-      "0x5b0b30286dc1fc7687f5d4855797d62a05f05e4de168411bfaf70f4eeed3be43"
+      "0xed122b2179f84573083fbad02bc39a814c45d23960887daf2651891a62c0d0f3"
     ],
     "tg": "https://t.me/puccinome",
+    "rejects": [
+      {
+        "hash": "0x5b0b30286dc1fc7687f5d4855797d62a05f05e4de168411bfaf70f4eeed3be43",
+        "reason": "Not swap transaction."
+      }
+    ],
     "bnb": "0.561",
-    "goong": 1771.0260000000003
+    "busd": "0.0",
+    "goongRefund": 1771.0260000000003
   },
   {
     "timestamp": "17/6/2021, 10:40:14",
@@ -213,8 +308,10 @@
       "0xd9cf677984981f176ee4dafff88c0d8cde86dfa2cef48fbd7a14f6b7a44a3fb2"
     ],
     "tg": "@ggbbb11",
+    "rejects": [],
     "bnb": "0.2",
-    "goong": 631.3818181818183
+    "busd": "0.0",
+    "goongRefund": 631.3818181818183
   },
   {
     "timestamp": "17/6/2021, 10:41:22",
@@ -226,20 +323,33 @@
       "0xff2022cfbf160713e052e947ea03c23bbcdf5363ce0299d22163b2befe7a7373",
       "0x26116cdd62d76ab7607253fc1f91b0b45decbdbd94ae707200270c3fa842778f",
       "0xed47618adb14ee973998f864602d9564e5dbac03658ccb62426e08f85589dc80",
-      "0x08b825fcaed2a6f57062b66dc9dfe8ef165a2b9854806d57e9d098c53887132d",
-      "0x5e68988377e309ca30a682593f60449b8e5e048ec2618f1c2d110e6bdccbe219"
+      "0x08b825fcaed2a6f57062b66dc9dfe8ef165a2b9854806d57e9d098c53887132d"
     ],
     "tg": "@gnigma237",
+    "rejects": [
+      {
+        "hash": "0x5e68988377e309ca30a682593f60449b8e5e048ec2618f1c2d110e6bdccbe219",
+        "reason": "Not swap transaction."
+      }
+    ],
     "bnb": "0.122",
-    "goong": 385.1429090909091
+    "busd": "0.0",
+    "goongRefund": 385.1429090909091
   },
   {
     "timestamp": "17/6/2021, 10:48:25",
     "address": "0x4134fF79cB444281e49B10171Bed4f6FB7d1a6C0",
     "transactions": [],
     "tg": "@Tanadol_Sasen",
-    "bnb": "0",
-    "goong": 0
+    "rejects": [
+      {
+        "hash": "0xf26c2f80789034ad0e32bca2bd4d923582e13dbf4f8806e088f3993ef0f44b64",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      }
+    ],
+    "bnb": "0.0",
+    "busd": "0.0",
+    "goongRefund": 0
   },
   {
     "timestamp": "17/6/2021, 11:04:35",
@@ -248,8 +358,10 @@
       "0x22496cbf3732676d8f2b90f644589e6a31c829c90d4dc7716913962cdc515fb7"
     ],
     "tg": "YOUNG NGAI I SUS 100x",
+    "rejects": [],
     "bnb": "0.01",
-    "goong": 31.56909090909091
+    "busd": "0.0",
+    "goongRefund": 31.56909090909091
   },
   {
     "timestamp": "17/6/2021, 11:13:08",
@@ -260,8 +372,10 @@
       "0xdb2740423dc8aac626c5790ba5521c09655a20c17ed0dad153f1bcb6a0abed23"
     ],
     "tg": "Dumrongtae Sayantoum",
+    "rejects": [],
     "bnb": "0.03",
-    "goong": 94.70727272727272
+    "busd": "0.0",
+    "goongRefund": 94.70727272727272
   },
   {
     "timestamp": "17/6/2021, 11:16:48",
@@ -271,8 +385,10 @@
       "0x2ec4d9dbb04c20cdbfa16a042556b0af3171f2bc3d96c674f1125c1d2809253c"
     ],
     "tg": "M.",
+    "rejects": [],
     "bnb": "0.05",
-    "goong": 157.84545454545457
+    "busd": "0.0",
+    "goongRefund": 157.84545454545457
   },
   {
     "timestamp": "17/6/2021, 11:25:38",
@@ -281,19 +397,27 @@
       "0xd87924ae2092c6f7b3e3b61d1b059a143adf0d54f6424f387159671310186051"
     ],
     "tg": "@boydberry",
+    "rejects": [],
     "bnb": "0.1",
-    "goong": 315.69090909090914
+    "busd": "0.0",
+    "goongRefund": 315.69090909090914
   },
   {
     "timestamp": "17/6/2021, 11:45:54",
     "address": "0x8De41553577504Be5B55ec2ac8934ED60c1Aa3Ec",
     "transactions": [
-      "0xfcbde93f1f680af017bbf52176f9c072ea3cbfbb5a0c250e3953acd6cc8f9bf4",
       "0x48db03394db7ed936b7da54ed12f14b415f44d7edad4e4cad5ea1f365debeb82"
     ],
     "tg": "https://t.me/ChanonWitt",
+    "rejects": [
+      {
+        "hash": "0xfcbde93f1f680af017bbf52176f9c072ea3cbfbb5a0c250e3953acd6cc8f9bf4",
+        "reason": "Not swap transaction."
+      }
+    ],
     "bnb": "0.0",
-    "goong": 0
+    "busd": "6.142526091758066982",
+    "goongRefund": 53.40926436783639
   },
   {
     "timestamp": "17/6/2021, 12:03:45",
@@ -304,8 +428,19 @@
       "0xbd7dace16faef94cf87943e149769079ccbb082fab033fc70747449b5aa12196"
     ],
     "tg": "teerads tokens",
+    "rejects": [
+      {
+        "hash": "0x92bbb3b9634d49d7d298e0fce37eeff40065332da0971e37a78c5ff5df6dd4ff",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      },
+      {
+        "hash": "0x418bdb376627a0c3970e84429192a6ef1ce07727cd6dc42410fc9bae489da58c",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      }
+    ],
     "bnb": "0.071",
-    "goong": 224.14054545454545
+    "busd": "0.0",
+    "goongRefund": 224.14054545454545
   },
   {
     "timestamp": "17/6/2021, 12:06:36",
@@ -314,8 +449,10 @@
       "0x1135d1eb7aaab211bee3e772581c326eef769c3cf126602d6313c388aa728eeb"
     ],
     "tg": "Piece of shit",
+    "rejects": [],
     "bnb": "0.002",
-    "goong": 6.313818181818182
+    "busd": "0.0",
+    "goongRefund": 6.313818181818182
   },
   {
     "timestamp": "17/6/2021, 12:10:25",
@@ -324,8 +461,10 @@
       "0x3a863d9742cfe06faafc2d4004ecefb56fc5a58c9f91337f2535c29fed4c0984"
     ],
     "tg": "@naannpk",
+    "rejects": [],
     "bnb": "0.1",
-    "goong": 315.69090909090914
+    "busd": "0.0",
+    "goongRefund": 315.69090909090914
   },
   {
     "timestamp": "17/6/2021, 12:11:37",
@@ -348,8 +487,10 @@
       "0x8d8402b1e3d0aad0cbb83ca60467f64edef0f7148db1b4a37a07027ae1edfadd"
     ],
     "tg": "@kussz14",
+    "rejects": [],
     "bnb": "0.7022",
-    "goong": 2216.781563636364
+    "busd": "0.0",
+    "goongRefund": 2216.781563636364
   },
   {
     "timestamp": "17/6/2021, 12:12:49",
@@ -359,8 +500,10 @@
       "0xf846093da2fac7c042187dee48760bfba9f4513dad512d5c533a734469a6d04d"
     ],
     "tg": "@kapinoi",
+    "rejects": [],
     "bnb": "0.3",
-    "goong": 947.0727272727272
+    "busd": "0.0",
+    "goongRefund": 947.0727272727272
   },
   {
     "timestamp": "17/6/2021, 12:15:05",
@@ -369,8 +512,10 @@
       "0x6bfe1ea3264980c971211a01eb8553a696f10e48766a02197f3fe747ac32fa1b"
     ],
     "tg": "isunjt",
+    "rejects": [],
     "bnb": "0.01",
-    "goong": 31.56909090909091
+    "busd": "0.0",
+    "goongRefund": 31.56909090909091
   },
   {
     "timestamp": "17/6/2021, 12:16:08",
@@ -379,8 +524,15 @@
       "0x5e0dd542c0b7ee41a8781708c9d58722237e9aa7ee893dc57464276862166ac2"
     ],
     "tg": "Sharkporsche",
+    "rejects": [
+      {
+        "hash": "0x51ead46a96bd2da463067b9d5706afe2119c2175599689748a34d698cfc0277f",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      }
+    ],
     "bnb": "0.26",
-    "goong": 820.7963636363637
+    "busd": "0.0",
+    "goongRefund": 820.7963636363637
   },
   {
     "timestamp": "17/6/2021, 12:16:46",
@@ -394,8 +546,10 @@
       "0xa8c0477c7f2ab7b5e56b04aad860620763cdffbedbb6ce04a1a8f07de1a329a1"
     ],
     "tg": "@Zing_ctdfs",
+    "rejects": [],
     "bnb": "0.04",
-    "goong": 126.27636363636364
+    "busd": "0.0",
+    "goongRefund": 126.27636363636364
   },
   {
     "timestamp": "17/6/2021, 12:17:05",
@@ -404,8 +558,10 @@
       "0xfa00b9f7ad921cdb5ca46d763434362475ea89ebcf21184a0379bb29122672dd"
     ],
     "tg": "Eddie180880",
+    "rejects": [],
     "bnb": "0.2",
-    "goong": 631.3818181818183
+    "busd": "0.0",
+    "goongRefund": 631.3818181818183
   },
   {
     "timestamp": "17/6/2021, 12:19:41",
@@ -414,8 +570,10 @@
       "0x23f27e17dea7485b756b4c8ff97eb9e671695a09ca8dc5db80fd5cdca2128e7e"
     ],
     "tg": 1873868196,
+    "rejects": [],
     "bnb": "0.04",
-    "goong": 126.27636363636364
+    "busd": "0.0",
+    "goongRefund": 126.27636363636364
   },
   {
     "timestamp": "17/6/2021, 12:20:33",
@@ -427,16 +585,25 @@
       "0x37271a7ed8bd4dc3e2418b9245877e2873680137c95b6fd772a338859da0bea1"
     ],
     "tg": "https://t.me/mallister",
+    "rejects": [],
     "bnb": "0.4",
-    "goong": 1262.7636363636366
+    "busd": "0.0",
+    "goongRefund": 1262.7636363636366
   },
   {
     "timestamp": "17/6/2021, 12:22:17",
     "address": "0xb7ceDD3e7E18A02Df3F92a27f75C7eDe5f294E0c",
     "transactions": [],
     "tg": "https://t.me/Telepiphat",
-    "bnb": "0",
-    "goong": 0
+    "rejects": [
+      {
+        "hash": "0xff38fad506a49da81d87677216826645ec5413d82d0c66ad7aef6523ef95261b",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      }
+    ],
+    "bnb": "0.0",
+    "busd": "0.0",
+    "goongRefund": 0
   },
   {
     "timestamp": "17/6/2021, 12:23:59",
@@ -445,16 +612,25 @@
       "0xf9a7ced866308d62ef000cc4812a63b48bf1678809362cc04f32d2def0785f2a"
     ],
     "tg": "Abhipu Patcharasrihakul",
+    "rejects": [],
     "bnb": "0.048",
-    "goong": 151.53163636363638
+    "busd": "0.0",
+    "goongRefund": 151.53163636363638
   },
   {
     "timestamp": "17/6/2021, 12:25:47",
     "address": "0x46E57ec944d017D8efD89bf403BF3415559C32Ab",
     "transactions": [],
     "tg": 1805322618,
-    "bnb": "0",
-    "goong": 0
+    "rejects": [
+      {
+        "hash": "0x5c0a3c2b3b3d4a11acb73937b5491848d1abd8f5a1eb6392b9a02c4e6a435843",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      }
+    ],
+    "bnb": "0.0",
+    "busd": "0.0",
+    "goongRefund": 0
   },
   {
     "timestamp": "17/6/2021, 12:29:32",
@@ -463,8 +639,10 @@
       "0xfbf914834ac9cf6a7275d1e063bb3d32f751360568d8a5c3cfc4bb86cc4f0d6b"
     ],
     "tg": "@pitipongyai",
+    "rejects": [],
     "bnb": "0.03",
-    "goong": 94.70727272727272
+    "busd": "0.0",
+    "goongRefund": 94.70727272727272
   },
   {
     "timestamp": "17/6/2021, 12:31:25",
@@ -474,8 +652,10 @@
       "0x6900241d9cc2bb781f13786e58b83c1ec6a4e998c2db1e8e026cf03f4c3c4c69"
     ],
     "tg": "@vladdddddi",
+    "rejects": [],
     "bnb": "0.003",
-    "goong": 9.470727272727274
+    "busd": "0.0",
+    "goongRefund": 9.470727272727274
   },
   {
     "timestamp": "17/6/2021, 12:38:58",
@@ -492,8 +672,10 @@
       "0x8710754b3b4b58ed7042365b8d4888e6ddcc0842108d3c965e2ce9f85c86a2e4"
     ],
     "tg": "@deklay69",
+    "rejects": [],
     "bnb": "0.095635099598810971",
-    "goong": 301.9113153334827
+    "busd": "0.0",
+    "goongRefund": 301.9113153334827
   },
   {
     "timestamp": "17/6/2021, 13:10:52",
@@ -502,8 +684,10 @@
       "0xb0ea5348239b21426506f6ecff246e2541c61eea0c0fd35e32c21450945fbf42"
     ],
     "tg": 182843175,
+    "rejects": [],
     "bnb": "0.2",
-    "goong": 631.3818181818183
+    "busd": "0.0",
+    "goongRefund": 631.3818181818183
   },
   {
     "timestamp": "17/6/2021, 13:11:15",
@@ -512,8 +696,10 @@
       "0x4a6fcc49d853866bf2a675e8998d5a9827366617c04db3170bcdb1a3d9bb1e04"
     ],
     "tg": "@intothevenus",
+    "rejects": [],
     "bnb": "0.04",
-    "goong": 126.27636363636364
+    "busd": "0.0",
+    "goongRefund": 126.27636363636364
   },
   {
     "timestamp": "17/6/2021, 13:21:24",
@@ -521,13 +707,19 @@
     "transactions": [
       "0x209654292be7cb917594a0d1ca503af68cf6fa2590e3019a8c9e3f6eab98bfed",
       "0xa57356a764a34aec7a0c7d7bfa2157f0c6baf2162dae1e5343fcb02a0da9feda",
-      "0xee6550bd3ef7865d23f51ad62e481e4bd8daaf760b453e3c5f8ba664a393f7bf",
       "0x50795b68861da4feac46d4244e8d945b1a045812e3f3c8bba2711abeafa60998",
       "0xc492ce16830f3f3d63ee49bc6b0bd170dbd768125df7fb67f1222fc66f05e6dc"
     ],
     "tg": "@ktath",
+    "rejects": [
+      {
+        "hash": "0xee6550bd3ef7865d23f51ad62e481e4bd8daaf760b453e3c5f8ba664a393f7bf",
+        "reason": "Not swap transaction."
+      }
+    ],
     "bnb": "0.039",
-    "goong": 123.11945454545454
+    "busd": "0.0",
+    "goongRefund": 123.11945454545454
   },
   {
     "timestamp": "17/6/2021, 13:22:49",
@@ -537,8 +729,10 @@
       "0x0edd9653f72b386dbc7d84b0bd4c50604f5b62e33cd614dd99716fae9d1400bb"
     ],
     "tg": "coffee2mate",
+    "rejects": [],
     "bnb": "0.0",
-    "goong": 0
+    "busd": "30.0",
+    "goongRefund": 260.85
   },
   {
     "timestamp": "17/6/2021, 13:28:17",
@@ -547,8 +741,10 @@
       "0x7bf037d0405935dd23baa530ac6bc6ba3be32cfcdc7d314c47c4c02ec6f33a50"
     ],
     "tg": "@St42dust",
+    "rejects": [],
     "bnb": "0.05",
-    "goong": 157.84545454545457
+    "busd": "0.0",
+    "goongRefund": 157.84545454545457
   },
   {
     "timestamp": "17/6/2021, 13:32:21",
@@ -557,8 +753,10 @@
       "0xbab06e2d95657f601953c1c28a0fec705126c5b6174049a9df7db2eafd064a0e"
     ],
     "tg": "jamebondd007",
+    "rejects": [],
     "bnb": "0.1",
-    "goong": 315.69090909090914
+    "busd": "0.0",
+    "goongRefund": 315.69090909090914
   },
   {
     "timestamp": "17/6/2021, 13:44:04",
@@ -569,8 +767,10 @@
       "0xd7a8aba1d37d4c3240eb5a0cd2b2b41e814b4f5a3579c106a0625c918001c013"
     ],
     "tg": "@Aricato",
+    "rejects": [],
     "bnb": "0.3",
-    "goong": 947.0727272727272
+    "busd": "0.0",
+    "goongRefund": 947.0727272727272
   },
   {
     "timestamp": "17/6/2021, 13:47:59",
@@ -579,8 +779,15 @@
       "0xda7a3b3ccdb270e019004fe7df7a1f270963b306f428033e56440a6808d749d7"
     ],
     "tg": "@tuanweeradet",
+    "rejects": [
+      {
+        "hash": "0xc7d208982c44068684d25a7805ac7da39868bbf4dbb87ddcb9ff3e14f590e53b",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      }
+    ],
     "bnb": "0.1",
-    "goong": 315.69090909090914
+    "busd": "0.0",
+    "goongRefund": 315.69090909090914
   },
   {
     "timestamp": "17/6/2021, 13:48:37",
@@ -589,8 +796,10 @@
       "0x63d50b67e30c7443073280e15201f1d1551700ba1078eab916ff0757a50e4570"
     ],
     "tg": "@lchlibendu",
+    "rejects": [],
     "bnb": "0.03813884794793339",
-    "goong": 120.40087580363044
+    "busd": "0.0",
+    "goongRefund": 120.40087580363044
   },
   {
     "timestamp": "17/6/2021, 13:50:07",
@@ -599,8 +808,10 @@
       "0xff37f0a0ef480d84fc05ecb040e2596424d33fc7dd13e4a252146121c1979f10"
     ],
     "tg": "@tharakornk",
+    "rejects": [],
     "bnb": "0.01",
-    "goong": 31.56909090909091
+    "busd": "0.0",
+    "goongRefund": 31.56909090909091
   },
   {
     "timestamp": "17/6/2021, 13:51:47",
@@ -610,14 +821,26 @@
       "0xe243349645db77b9ee0f0a63a1aca5d3d7f971c2ac70934ecbc4c71924282bab",
       "0xf78b3a6f19501985be68ea2f94730ac14412c9ab619722cf17323f48a73e1140",
       "0x44432ef18e67859120a7a447be8b31ced0f7fe5058706aaa07ea0e09a1eedc5f",
-      "0xc87b7f5353286348e717f4530f60bf4c6166c3e1427cd82cef5d8bf80ca332ce",
-      "0x7307b71f362e810eb57d30bb78dd700490bb152504652df80da1919e72903e75",
-      "0xa149fb012448bd92dc876d2e989e77ac9dbe11e7d8b0032438b1a5cde0e604da",
-      "0xae58658a515d1fa51927b62ba3b1f7da1a87251e0647f1a86e1835794692d36e"
+      "0xc87b7f5353286348e717f4530f60bf4c6166c3e1427cd82cef5d8bf80ca332ce"
     ],
     "tg": "https://t.me/DDLOYD",
+    "rejects": [
+      {
+        "hash": "0x7307b71f362e810eb57d30bb78dd700490bb152504652df80da1919e72903e75",
+        "reason": "Not swap transaction."
+      },
+      {
+        "hash": "0xa149fb012448bd92dc876d2e989e77ac9dbe11e7d8b0032438b1a5cde0e604da",
+        "reason": "Not swap transaction."
+      },
+      {
+        "hash": "0xae58658a515d1fa51927b62ba3b1f7da1a87251e0647f1a86e1835794692d36e",
+        "reason": "Not swap transaction."
+      }
+    ],
     "bnb": "0.217",
-    "goong": 685.0492727272728
+    "busd": "0.0",
+    "goongRefund": 685.0492727272728
   },
   {
     "timestamp": "17/6/2021, 13:52:24",
@@ -626,8 +849,10 @@
       "0x11ce84f1c2188209b48120f7349553e6d92147a071e2c3f8d94a23c94c8b6668"
     ],
     "tg": "newzfaker",
+    "rejects": [],
     "bnb": "0.28",
-    "goong": 883.9345454545455
+    "busd": "0.0",
+    "goongRefund": 883.9345454545455
   },
   {
     "timestamp": "17/6/2021, 14:25:59",
@@ -643,8 +868,10 @@
       "0xcfff69c00ca43b7bd675adfa31b4ccca63fabe01e5ff84e80d89c9edd4d24d0e"
     ],
     "tg": "@mostshinoda",
+    "rejects": [],
     "bnb": "0.078",
-    "goong": 246.2389090909091
+    "busd": "0.0",
+    "goongRefund": 246.2389090909091
   },
   {
     "timestamp": "17/6/2021, 14:49:41",
@@ -655,8 +882,10 @@
       "0x08cd878cca8004ee8fd93872b2f006d45d49317ef231f0ef2046a3c132d91a49"
     ],
     "tg": "@opofmn",
+    "rejects": [],
     "bnb": "0.067",
-    "goong": 211.51290909090912
+    "busd": "0.0",
+    "goongRefund": 211.51290909090912
   },
   {
     "timestamp": "17/6/2021, 15:20:36",
@@ -665,8 +894,10 @@
       "0x2cab0f1113c8e0c87fe22ed21b75bc963f7aec13a6a343d8ec7e80ee83f211d5"
     ],
     "tg": "@Dookroulloz",
+    "rejects": [],
     "bnb": "0.1",
-    "goong": 315.69090909090914
+    "busd": "0.0",
+    "goongRefund": 315.69090909090914
   },
   {
     "timestamp": "17/6/2021, 15:27:00",
@@ -675,8 +906,10 @@
       "0x1b3c7e1aeb3721e2cffb195201ddc572d4168844179432c460007571dd52001f"
     ],
     "tg": "@remiiiiii9",
+    "rejects": [],
     "bnb": "0.1",
-    "goong": 315.69090909090914
+    "busd": "0.0",
+    "goongRefund": 315.69090909090914
   },
   {
     "timestamp": "17/6/2021, 15:48:26",
@@ -685,8 +918,10 @@
       "0x5ceda45f6acee6d40311fe75fb0e77f56f9fc98ed69fd21f136f14c47e3dbcc6"
     ],
     "tg": "@nellayrrab",
+    "rejects": [],
     "bnb": "0.05",
-    "goong": 157.84545454545457
+    "busd": "0.0",
+    "goongRefund": 157.84545454545457
   },
   {
     "timestamp": "17/6/2021, 16:10:04",
@@ -696,8 +931,10 @@
       "0x79d5e8d95ea8adc57976d851c000a3b8c7ac02168a3484f23cdde521c1935cec"
     ],
     "tg": "Jokerhz",
+    "rejects": [],
     "bnb": "0.04",
-    "goong": 126.27636363636364
+    "busd": "0.0",
+    "goongRefund": 126.27636363636364
   },
   {
     "timestamp": "17/6/2021, 16:12:10",
@@ -709,14 +946,26 @@
       "0xe8f2a46a441cafaabc40c702e841aa5f51d2212cf67a8b4831996727abd46959",
       "0x9f84bc32bdea9e449183c1a1c175b00cb4d2a873dd4da409aad643a07532b555",
       "0x0a6ded620c3698fd7eb543e2970d7ed1fde5cec88825bf8bf9eb66e1ed3237c5",
-      "0xe34020aa0ad644223a9e96db821272f5db6eb3a7079664941b927b828b4575e9",
-      "0xe1d9428f437ee5c5719f80ed82652708c3a7d201e66cddbb4158f7aecf3b6d54",
-      "0xa63e6de83064b1e68b8398b6405dd9434701dfbac82a621ce4e5c01dc829da74",
-      "0x57687f26161e441f5fd07b0a018f4ae7352bd2cc2104e5b7fcb0d7f2c3cf7205"
+      "0xe34020aa0ad644223a9e96db821272f5db6eb3a7079664941b927b828b4575e9"
     ],
     "tg": "@PoPuSu",
+    "rejects": [
+      {
+        "hash": "0xe1d9428f437ee5c5719f80ed82652708c3a7d201e66cddbb4158f7aecf3b6d54",
+        "reason": "Not swap transaction."
+      },
+      {
+        "hash": "0xa63e6de83064b1e68b8398b6405dd9434701dfbac82a621ce4e5c01dc829da74",
+        "reason": "Not swap transaction."
+      },
+      {
+        "hash": "0x57687f26161e441f5fd07b0a018f4ae7352bd2cc2104e5b7fcb0d7f2c3cf7205",
+        "reason": "Not swap transaction."
+      }
+    ],
     "bnb": "0.014",
-    "goong": 44.19672727272727
+    "busd": "0.0",
+    "goongRefund": 44.19672727272727
   },
   {
     "timestamp": "17/6/2021, 16:18:28",
@@ -725,18 +974,25 @@
       "0xa59583cf6501ea6bf28b27f68ebf8a8a4dda5864cf27e5587a9314e0acb35177"
     ],
     "tg": "Boo2552",
+    "rejects": [],
     "bnb": "0.04",
-    "goong": 126.27636363636364
+    "busd": "0.0",
+    "goongRefund": 126.27636363636364
   },
   {
     "timestamp": "17/6/2021, 16:49:53",
     "address": "0x0e5a5bDf7bB1d1BbF616d8425e60248Bd93b1448",
-    "transactions": [
-      "0xf73a59b722a8da335cb2183ebef25292a284ba7b546b0273f53f7b7f435c734d"
-    ],
+    "transactions": [],
     "tg": "Mew",
-    "bnb": "0.009884913569723576",
-    "goong": 31.20577351111099
+    "rejects": [
+      {
+        "hash": "0xf73a59b722a8da335cb2183ebef25292a284ba7b546b0273f53f7b7f435c734d",
+        "reason": "Not swap transaction."
+      }
+    ],
+    "bnb": "0.0",
+    "busd": "0.0",
+    "goongRefund": 0
   },
   {
     "timestamp": "17/6/2021, 17:44:59",
@@ -745,8 +1001,10 @@
       "0x77efcfba502bc9986f7e0e864882503fbbf654e84c14377da6ac816d390df7ff"
     ],
     "tg": "@MaiNiTH",
+    "rejects": [],
     "bnb": "0.1",
-    "goong": 315.69090909090914
+    "busd": "0.0",
+    "goongRefund": 315.69090909090914
   },
   {
     "timestamp": "17/6/2021, 17:50:52",
@@ -755,8 +1013,10 @@
       "0x7eacbb1c97edc2ad980c2c7c64e76bdbc61d20622ae80d2f72db6bdc1d8533d2"
     ],
     "tg": "kongosama",
+    "rejects": [],
     "bnb": "0.1",
-    "goong": 315.69090909090914
+    "busd": "0.0",
+    "goongRefund": 315.69090909090914
   },
   {
     "timestamp": "17/6/2021, 17:55:34",
@@ -765,8 +1025,10 @@
       "0xedc536ada552c0a532abbeed33ecae78d3962149bd7bfcd86890b60ae5622ec8"
     ],
     "tg": "@Jeanhanna",
+    "rejects": [],
     "bnb": "0.093115166190457425",
-    "goong": 293.9561146481659
+    "busd": "0.0",
+    "goongRefund": 293.9561146481659
   },
   {
     "timestamp": "17/6/2021, 18:52:33",
@@ -775,8 +1037,10 @@
       "0xc1dac5f331ec3f695d40ebcff3d620d09dba66be6db70aad9a144af62236106f"
     ],
     "tg": "@PanterPeet",
+    "rejects": [],
     "bnb": "0.025",
-    "goong": 78.92272727272729
+    "busd": "0.0",
+    "goongRefund": 78.92272727272729
   },
   {
     "timestamp": "17/6/2021, 19:27:20",
@@ -796,8 +1060,10 @@
       "0xb7af503d1ededfb6ed64a29d4bbf5652450f6aa091cc9653efdfde98a2b4f965"
     ],
     "tg": "@seechompoo",
+    "rejects": [],
     "bnb": "0.0723",
-    "goong": 228.24452727272728
+    "busd": "0.0",
+    "goongRefund": 228.24452727272728
   },
   {
     "timestamp": "17/6/2021, 19:43:59",
@@ -806,8 +1072,10 @@
       "0xdce8476ef8ccbc1112c29d4cac9d24067d6ee06a6240c0b9843c087b7e2aaf81"
     ],
     "tg": "@whale919",
+    "rejects": [],
     "bnb": "0.00001",
-    "goong": 0.031569090909090915
+    "busd": "0.0",
+    "goongRefund": 0.031569090909090915
   },
   {
     "timestamp": "17/6/2021, 20:31:13",
@@ -816,8 +1084,15 @@
       "0x630c5956d33f463155a836d506800572d7c8e8b5a64748a5f7efef1965c0986c"
     ],
     "tg": "https://t.me/Pscpond",
+    "rejects": [
+      {
+        "hash": "0xb6e7fa425411b15017b525f0c9752be60151d8d4596f26c8ad06c7dc193508db",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      }
+    ],
     "bnb": "0.5",
-    "goong": 1578.4545454545455
+    "busd": "0.0",
+    "goongRefund": 1578.4545454545455
   },
   {
     "timestamp": "17/6/2021, 21:10:09",
@@ -826,8 +1101,10 @@
       "0x7a03c524221e3196fab8066909a33124f923225c1dd3bae2aadb5339ebc4a3ec"
     ],
     "tg": "@AdisornJ",
+    "rejects": [],
     "bnb": "0.02",
-    "goong": 63.13818181818182
+    "busd": "0.0",
+    "goongRefund": 63.13818181818182
   },
   {
     "timestamp": "17/6/2021, 21:41:01",
@@ -835,12 +1112,18 @@
     "transactions": [
       "0x0f9d15f4674056e6777e7165dfd389d386683d69e943961a0c49ca125251bbdc",
       "0x5600ea889f85279c6a7378c8eb755d53c3cb2c2101e3a4c6e4ef9ab4a7fa00cd",
-      "0x86ef8ea879def6684e99623a57e7d662ec15810f1d5b38c5541428a8c473e987",
-      "0x78311d7996642329a98879d0fc1d9051420b4bc96e01ef0bd89f1bb3ae6c08a8"
+      "0x86ef8ea879def6684e99623a57e7d662ec15810f1d5b38c5541428a8c473e987"
     ],
     "tg": "@numanuel",
-    "bnb": "0.1",
-    "goong": 315.69090909090914
+    "rejects": [
+      {
+        "hash": "0x78311d7996642329a98879d0fc1d9051420b4bc96e01ef0bd89f1bb3ae6c08a8",
+        "reason": "Not swap transaction."
+      }
+    ],
+    "bnb": "0.05",
+    "busd": "0.0",
+    "goongRefund": 157.84545454545457
   },
   {
     "timestamp": "17/6/2021, 21:43:17",
@@ -852,8 +1135,10 @@
       "0x3443bc4bcb44803c7be5f1ed66f387c45da256d501d5ba04f826c15fdd96d426"
     ],
     "tg": "@pipezjrk",
+    "rejects": [],
     "bnb": "0.01909",
-    "goong": 60.26539454545455
+    "busd": "0.0",
+    "goongRefund": 60.26539454545455
   },
   {
     "timestamp": "17/6/2021, 22:08:18",
@@ -865,8 +1150,10 @@
       "0x499df5a0b290f1cf5953bfa8aab47b4f7b7a0637f2a959235ba1034fba88443e"
     ],
     "tg": "@lostboy55",
+    "rejects": [],
     "bnb": "0.25",
-    "goong": 789.2272727272727
+    "busd": "0.0",
+    "goongRefund": 789.2272727272727
   },
   {
     "timestamp": "17/6/2021, 22:57:11",
@@ -875,8 +1162,10 @@
       "0x610d8eaab5128651e1bc2a41bd0d9800e639c7727db9c47f0e766533deaf52c2"
     ],
     "tg": "@Spencer_P",
+    "rejects": [],
     "bnb": "0.0005",
-    "goong": 1.5784545454545456
+    "busd": "0.0",
+    "goongRefund": 1.5784545454545456
   },
   {
     "timestamp": "17/6/2021, 23:00:26",
@@ -885,32 +1174,55 @@
       "0x86f31598a69263f04e2607556506bc7b2ba69c8d01b4ed1a009bf5459beb9864"
     ],
     "tg": "bank666666",
+    "rejects": [],
     "bnb": "0.034280588457534257",
-    "goong": 108.22070134330313
+    "busd": "0.0",
+    "goongRefund": 108.22070134330313
   },
   {
     "timestamp": "17/6/2021, 23:32:41",
     "address": "0x6247936214B4F2d1476AD797eE5c8e4B3e1434ce",
     "transactions": [],
     "tg": "Two Doors",
-    "bnb": "0",
-    "goong": 0
+    "rejects": [
+      {
+        "hash": "0x1f8dae33cddd1f165b1194c797f5632251cd232bde07fe3bca33af1b596a2f22",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      }
+    ],
+    "bnb": "0.0",
+    "busd": "0.0",
+    "goongRefund": 0
   },
   {
     "timestamp": "17/6/2021, 23:56:48",
     "address": "0x7a7f186a8F8983a5785DF96aEa4bdDBecd6D2fb5",
     "transactions": [],
     "tg": "@tmew2009",
-    "bnb": "0",
-    "goong": 0
+    "rejects": [
+      {
+        "hash": "0x0c1717b9c0e96f58a2c40479a5b69ec028e779da2b382807d8b34d1ac4cdf4d5",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      }
+    ],
+    "bnb": "0.0",
+    "busd": "0.0",
+    "goongRefund": 0
   },
   {
     "timestamp": "18/6/2021, 0:59:26",
     "address": "0x9e053EA35cEc4d1f274127A799676F85B15be92c",
     "transactions": [],
     "tg": "@Anuruk_Kul",
-    "bnb": "0",
-    "goong": 0
+    "rejects": [
+      {
+        "hash": "0xb1ca2cdd78a9cbc7ac2a200f24b3e237694b154e6184b5861b086d31f2edf313",
+        "reason": "The transaction doesn't get included between block 8347353 and block 8347803"
+      }
+    ],
+    "bnb": "0.0",
+    "busd": "0.0",
+    "goongRefund": 0
   },
   {
     "timestamp": "18/6/2021, 2:25:30",
@@ -919,8 +1231,10 @@
       "0x1e0893ded0677ac0243870ec092786fc7ec71be499b4db75e354bfb075903577"
     ],
     "tg": "Tomthom14",
+    "rejects": [],
     "bnb": "0.05",
-    "goong": 157.84545454545457
+    "busd": "0.0",
+    "goongRefund": 157.84545454545457
   },
   {
     "timestamp": "18/6/2021, 2:46:10",
@@ -929,8 +1243,10 @@
       "0x62436f1262c4ef6b707d29b467cf6e69c56e38f20b1c3e717852deb18f0cd44e"
     ],
     "tg": "@forcekebo",
+    "rejects": [],
     "bnb": "0.09",
-    "goong": 284.1218181818182
+    "busd": "0.0",
+    "goongRefund": 284.1218181818182
   },
   {
     "timestamp": "18/6/2021, 8:57:42",
@@ -939,8 +1255,10 @@
       "0x6fabe7cb61f19e5a287c76874d7b93841213f8a8f7ee97197def438f2791f5d0"
     ],
     "tg": "@chokchon",
+    "rejects": [],
     "bnb": "0.1",
-    "goong": 315.69090909090914
+    "busd": "0.0",
+    "goongRefund": 315.69090909090914
   },
   {
     "timestamp": "18/6/2021, 13:51:36",
@@ -949,20 +1267,23 @@
       "0xd82ec5153f79fa08910cfb18fa3ad9eba104498d57b6c521632774470433deb7"
     ],
     "tg": "@wingking6463",
+    "rejects": [],
     "bnb": "0.1",
-    "goong": 315.69090909090914
+    "busd": "0.0",
+    "goongRefund": 315.69090909090914
   },
   {
     "timestamp": "18/6/2021, 17:41:14",
     "address": "0x27a26ACEe36aCB353c33c41BFE72A7cA6c166078",
     "transactions": [
       "0xff10bcb33fe099720dc946f5751f5fbc3ead074c56421c6e0776c921ed20b61d",
-      "0xd137fec3244bd1690bb7861d2d75994b21831a7e23fda33c7d3a3419e6f85990",
-      "0x7b07efb262d25feb2478038e8ff03676dc1e5c74d3983db373e91312a8a847ec"
+      "0xd137fec3244bd1690bb7861d2d75994b21831a7e23fda33c7d3a3419e6f85990"
     ],
     "tg": "ChampTDE",
-    "bnb": "0.5",
-    "goong": 1578.4545454545455
+    "rejects": [],
+    "bnb": "0.4",
+    "busd": "0.0",
+    "goongRefund": 1262.7636363636366
   },
   {
     "timestamp": "18/6/2021, 19:42:51",
@@ -972,8 +1293,10 @@
       "0xdf2d6151fe1f2a5c9539bb31093067c0da20fffdc127bac93a7943da950e2c29"
     ],
     "tg": "@aofmusix",
+    "rejects": [],
     "bnb": "0.22",
-    "goong": 694.52
+    "busd": "0.0",
+    "goongRefund": 694.52
   },
   {
     "timestamp": "18/6/2021, 20:11:31",
@@ -982,8 +1305,10 @@
       "0x5228470f9f80dd95ef7166c11cd37c2b6d1e1c922f883f4e9a5fd0eb5ecbfa04"
     ],
     "tg": "winai.kitbumrung",
+    "rejects": [],
     "bnb": "0.02",
-    "goong": 63.13818181818182
+    "busd": "0.0",
+    "goongRefund": 63.13818181818182
   },
   {
     "timestamp": "18/6/2021, 20:44:03",
@@ -992,8 +1317,10 @@
       "0x3f4ca4b0e445cedb5b404b0e08915b4764dd9068933924f88cfc4095ee9c9d0e"
     ],
     "tg": "@Piyapong9099",
+    "rejects": [],
     "bnb": "0.201988404596215615",
-    "goong": 637.6590307280167
+    "busd": "0.0",
+    "goongRefund": 637.6590307280167
   },
   {
     "timestamp": "19/6/2021, 1:05:01",
@@ -1010,8 +1337,10 @@
       "0xbe4edb93149b37cfba1e335ebf124a5d052e8e387f7d8ccd724ab263df3b4c3e"
     ],
     "tg": "@stol2mshadow",
+    "rejects": [],
     "bnb": "0.006613",
-    "goong": 20.87663981818182
+    "busd": "0.0",
+    "goongRefund": 20.87663981818182
   },
   {
     "timestamp": "19/6/2021, 8:33:19",
@@ -1020,8 +1349,10 @@
       "0xe74adb4eb2dc4e4bac9a5af349717865ae810f00b5a07ccbbc2a762246a8d976"
     ],
     "tg": "@lcl1234",
+    "rejects": [],
     "bnb": "0.0",
-    "goong": 0
+    "busd": "15.0",
+    "goongRefund": 130.425
   },
   {
     "timestamp": "19/6/2021, 11:36:49",
@@ -1055,8 +1386,10 @@
       "0xd99c1f8eeb9ccebdc05e19d29ac762e79acdd449768097d451c96f1f84645c4d"
     ],
     "tg": "Glennbtc",
+    "rejects": [],
     "bnb": "0.11742",
-    "goong": 370.6842654545454
+    "busd": "0.0",
+    "goongRefund": 370.6842654545454
   },
   {
     "timestamp": "19/6/2021, 20:53:43",
@@ -1065,8 +1398,10 @@
       "0x45e30e196ce93feb4af65458594f38787c5b677bcd8a82954716b92b5e18113d"
     ],
     "tg": "@zugstyles",
+    "rejects": [],
     "bnb": "0.0",
-    "goong": 0
+    "busd": "10.0",
+    "goongRefund": 86.95
   },
   {
     "timestamp": "20/6/2021, 12:54:07",
@@ -1081,7 +1416,9 @@
       "0x81388cd8a2356f95b068d46c2471e240b89e39fe6b6ef9ecc4f3b90d17c6330a"
     ],
     "tg": "@Mikazuki2",
+    "rejects": [],
     "bnb": "0.061",
-    "goong": 192.57145454545454
+    "busd": "0.0",
+    "goongRefund": 192.57145454545454
   }
 ]

@@ -6,16 +6,13 @@
 const hre = require("hardhat");
 const fs = require("fs");
 const { ethers } = require("hardhat");
-const step2RemoveOutRangeBlocks = require("../outputs/step-2-remove-outrange-blocks.json");
-const step3IncludeTotalBnb = require("../outputs/step-3-include-total-bnb-used.json");
 
-const BNB = "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
-const BUSD = "0xe9e7cea3dedca5984780bafc599bd69add087d56"
 const GOONG = "0x2afAB709fEAC97e2263BEd78d94aC2951705dB50"
 const validBlocks = [8347353, 8347803];
 
 // Reference: https://bscscan.com/tx/0xeee08bfc0aec3c50a8a1daac1aaf7a51405a62440e80eff1281375d97a33e718
 const goongPerBnb = 3156.909090909091;
+const goongPerBusd = 8.695;
 const filePath = "./inputs/1-129.txt";
 
 async function parse(rawFilePath) {
@@ -29,6 +26,7 @@ async function parse(rawFilePath) {
   }));
 }
 
+// Step 0: Group transactions from multiple records with the same address
 async function groupByAddress(records) {
   const _recordsByAddress = {};
 
@@ -51,10 +49,13 @@ async function groupByAddress(records) {
   }
 
   saveToFile("./outputs/step-0-group-by-address.json", recordsByAddress);
+  console.log(`Step 0: Completed`)
 
   return recordsByAddress;
 }
 
+
+// Step 1: Removed duplicated transactions
 async function removeDuplicatedTxs(records) {
   const removedDuplicateTxsRecords = records.map((record) => {
     const txSet = new Set(record.transactions);
@@ -69,12 +70,16 @@ async function removeDuplicatedTxs(records) {
     removedDuplicateTxsRecords
   );
 
+  console.log(`Step 1: Completed`)
+
   return removedDuplicateTxsRecords;
 }
 
+// Step 2: Removed transactions get included outside given blocks
 async function removeOutRangeBlocks(records, blocks) {
   const [minBlock, maxBlock] = blocks;
   const inRangeBlockRecords = [];
+  let count = 0
 
   for (record of records) {
     const pendingTxs = record.transactions.map((hash) => {
@@ -94,14 +99,27 @@ async function removeOutRangeBlocks(records, blocks) {
         .map((txs) => txs.hash)
     );
 
+    const outRangeBlockTxs = await Promise.all(pendingTxs).then((txs) =>
+      txs
+        .filter(
+          (tx) => tx.blockNumber < minBlock || tx.blockNumber > maxBlock
+        )
+        .map((txs) => txs.hash)
+    );
+
+    count++;
+
     console.log(
-      `User ${record.tg}`,
-      `from ${record.transactions.length} txs to ${inRangeBlockTxs.length} txs.`
+      `Step 2: Processed ${count}/${records.length}`
     );
 
     inRangeBlockRecords.push({
       ...record,
       transactions: inRangeBlockTxs,
+      rejects: outRangeBlockTxs.map(hash => ({
+        hash,
+        reason: `The transaction doesn't get included between block ${validBlocks[0]} and block ${validBlocks[1]}`
+      }))
     });
   }
 
@@ -109,6 +127,8 @@ async function removeOutRangeBlocks(records, blocks) {
     "./outputs/step-2-remove-outrange-blocks.json",
     inRangeBlockRecords
   );
+
+  console.log(`Step 2: Completed`)
 
   return inRangeBlockRecords;
 }
@@ -125,6 +145,7 @@ async function filterSwapTxWithAmount(records) {
 
   const filteredSwapTxWithAmountRecords = []
 
+  let count = 0;
   for(record of records) {
     let bnbUsed = ethers.BigNumber.from("0")
     let busdUsed = ethers.BigNumber.from("0")
@@ -173,69 +194,32 @@ async function filterSwapTxWithAmount(records) {
     ],
   }
 
-  console.log(updatedRecord)
+  count++;
+
+  console.log(
+    `Step 3: Processed ${count}/${records.length}`
+  );
 
   filteredSwapTxWithAmountRecords.push(updatedRecord)
 }
 
-  console.log(filteredSwapTxWithAmountRecords)
+  console.log(`Step 3: Completed`)
   saveToFile('./outputs/step-3-filter-swap-tx-with-amount.json', filteredSwapTxWithAmountRecords)
   return filteredSwapTxWithAmountRecords
 }
 
-// async function calculateTotalBnbUsed(records) {
-//   const includedBnbUsedTxs = [];
-//   let totalBnbLost = ethers.BigNumber.from("0");
-//   for (record of records) {
-//     // for (hash of record.transactions) {
-//     const pendingBnb = record.transactions.map((hash) => {
-//       return hre.network.provider
-//         .send("eth_getTransactionByHash", [hash])
-//         .then((tx) => ethers.BigNumber.from(tx.value));
-//     });
-
-//     if (pendingBnb.length) {
-//       const bnb = await Promise.all(pendingBnb).then(
-//         (bnb) => bnb.reduce((acc, tx) => acc.add(tx)),
-//         ethers.BigNumber.from("0")
-//       );
-
-//       const formattedBnb = ethers.utils.formatEther(bnb);
-//       console.log(`User ${record.tg} paid:`, `${formattedBnb} BNB`);
-
-//       totalBnbLost = totalBnbLost.add(ethers.BigNumber.from(bnb));
-
-//       includedBnbUsedTxs.push({
-//         ...record,
-//         bnb: formattedBnb,
-//       });
-//     } else {
-//       includedBnbUsedTxs.push({ ...record, bnb: "0" });
-//     }
-//   }
-
-//   saveToFile(
-//     "./outputs/step-3-include-total-bnb-used.json",
-//     includedBnbUsedTxs
-//   );
-
-//   console.log(`Total bnb lost`, ethers.utils.formatEther(totalBnbLost));
-
-//   return includedBnbUsedTxs;
-// }
-
-async function calculateGoongCompensate(records, goongPerBnb) {
+async function calculateGoongCompensate(records, goongPerBnb, goongPerBusd) {
   let totalCompensateGoong = 0;
   const goongCompensateTxs = records.map((record) => {
-    const compensatedGoong = goongPerBnb * parseFloat(record.bnb);
+    const compensatedGoongBnb = goongPerBnb * parseFloat(record.bnb);
+    const compensatedGoongBusd = goongPerBusd * parseFloat(record.busd);
 
-    totalCompensateGoong += compensatedGoong;
-
-    console.log(`${record.bnb} BNB:`, `${compensatedGoong} Goong`);
+    totalCompensateGoong += compensatedGoongBnb;
+    totalCompensateGoong += compensatedGoongBusd;
 
     return {
       ...record,
-      goong: compensatedGoong,
+      goongRefund: compensatedGoongBnb + compensatedGoongBusd,
     };
   });
 
@@ -243,6 +227,9 @@ async function calculateGoongCompensate(records, goongPerBnb) {
     "./outputs/step-4-include-goong-compensate.json",
     goongCompensateTxs
   );
+
+  console.log(`Step 4: Completed`)
+  console.log("==============================")
   console.log("Total compensate Goong:", totalCompensateGoong);
 }
 
@@ -250,22 +237,21 @@ function saveToFile(filePath, content) {
   fs.writeFileSync(filePath, JSON.stringify(content, null, 2));
 }
 
-// parse(filePath)
-//   .then(groupByAddress)
-//   .then(removeDuplicatedTxs)
-//   .then((records) => removeOutRangeBlocks(records, validBlocks))
-//   .then(calculateTotalBnbUsed)
-//   .then((records) => calculateGoongCompensate(records, goongPerBnb))
-//   .then(() => process.exit(0))
-//   .catch((error) => {
-//     console.error(error);
-//     process.exit(1);
-//   });
-
-// calculateTotalBnbUsed(step2RemoveOutRangeBlocks)
-filterSwapTxWithAmount(step2RemoveOutRangeBlocks)
+parse(filePath)
+  .then(groupByAddress)
+  .then(removeDuplicatedTxs)
+  .then((records) => removeOutRangeBlocks(records, validBlocks))
+  .then(filterSwapTxWithAmount)
+  .then((records) => calculateGoongCompensate(records, goongPerBnb, goongPerBusd))
   .then(() => process.exit(0))
   .catch((error) => {
     console.error(error);
     process.exit(1);
   });
+
+// filterSwapTxWithAmount(step2RemoveOutRangeBlocks)
+//   .then(() => process.exit(0))
+//   .catch((error) => {
+//     console.error(error);
+//     process.exit(1);
+//   });
