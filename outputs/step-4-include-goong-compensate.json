@@ -121,17 +121,6 @@
     "goongRefund": 1771.0260000000003
   },
   {
-    "timestamp": "17/6/2021, 10:06:42",
-    "address": "0x4aEA3B46a9d784252aEcD9E2b232DD3f090bD636",
-    "transactions": [
-      "0x84769ad0814db5aacbf7e150d626452af6b08a859626caaf1a4aa326a841c1cf"
-    ],
-    "rejects": [],
-    "bnb": "0.04",
-    "busd": "0.0",
-    "goongRefund": 126.27636363636364
-  },
-  {
     "timestamp": "17/6/2021, 10:06:53",
     "address": "0x3c1ab5cb1cb463960cbc3134c7f3564244340e2d",
     "transactions": [
